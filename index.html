@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simulador de Financiamento</title>
+        <style>
+            body {
+                background: rgb(4, 4, 45);
+                color: white;
+                font: 11pt Tahoma;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Simulador de Financiamento com Sistema ...</h2>
+        <input id="textoValor" type="text" placeholder="Valor de bem"><br>
+        <input id="textoEntrada" type="text" placeholder="Valor da entrada"><br>
+        <input id="textoTaxaJuros" type="text" placeholder="Taxa de juros (%)"><br>
+        <input id="textoPrazo" type="text" placeholder="Prazo (em meses)"><br>
+        <button id="botaoCalcular">Calcular</button>
+        <input id="comCarencia" type="checkbox">Com carência
+        <select id="listaSuspensa" hidden>
+            <option value="2">2 meses</option>
+            <option value="3">3 meses</option>
+            <option value="4">4 meses</option>
+        </select>
+        <script type="module" src="index.js"></script>
+
+    </body>
+</html>
